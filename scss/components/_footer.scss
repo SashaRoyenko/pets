@@ -1,0 +1,91 @@
+.footer_s{
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: #1E1D1C;
+  z-index: 20;
+  padding: 120px 0;
+  footer{
+    article{
+      h2{
+        font-family: "Stolzl Regular";
+        font-size: 26px;
+        color:#fff;
+        position: relative;
+        &::before{
+          content:'';
+          position: absolute;
+          left:50%;
+          transform: translateX(-50%);
+          bottom: -15px;
+          width: 36px;
+          height: 2px;
+          background-color: #FCB367;
+        }
+      }
+      p{
+        font-family: 'Stolzl Book';
+        font-size: 13px;
+        color: #B5B4B3;
+        margin: 25px 0 40px 0;
+        width: 50%;
+        text-align: center;
+      }
+    }
+    form {
+      input {
+        width: 515px;
+        height: 40px;
+      }
+      .btn{
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+    ul{
+      margin-top: 145px;
+      li{
+        h4{
+          font-family: "Stolzl Regular";
+          font-size: 14px;
+          color: #fff;
+          margin-bottom: 25px;
+        }
+        p{
+          font-family: 'Stolzl Book';
+          font-size: 13px;
+          color: #B5B4B3;
+          text-align: left;
+          line-height: 20px;
+        }
+        }
+      }
+
+    }
+  .footer_bottom{
+    background-color: #1B1A19;
+    width: 100%;
+    z-index: 200;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    .footer_bottom__wrap{
+      margin: 0 auto;
+      h5,li>a{
+        font-family: "Stolzl Regular";
+        font-size: 11px;
+        color:#676767;
+      }
+      ul{
+        li{
+          margin-right: 10px;
+          &:last-child{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+}

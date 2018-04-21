@@ -1,7 +1,12 @@
 .content_s{
   .content_s__wrap{
     .content_box_1{
+      position: relative;
       background-color: #EEE8E3;
+      img{
+        display: block;
+        margin-left: 15px;
+      }
     }
     .content_box_2{
       background-color: #282624;
