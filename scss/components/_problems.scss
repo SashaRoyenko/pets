@@ -1,0 +1,46 @@
+.problems{
+  .problems__wrap{
+   .problems_1,.problem_2{
+    height: 450px;
+    }
+    .problem_1{
+      background-color: #1E1D1C;
+    }
+    .problem_2{
+      background-color: #282624;
+      article {
+        position: relative;
+        .btn {
+          position: absolute;
+          bottom: -60px;
+        }
+      }
+    }
+    article{
+      h4{
+          font-size: 18px;
+        position: relative;
+        color: #fff;
+        font-family: 'Stolzl Regular';
+        &::after{
+          content:'';
+          position: absolute;
+          left: 50%;
+          bottom: -10px;
+          transform: translateX(-50%);
+          width: 36px;
+          height: 2px;
+          background-color: #FCB367;
+        }
+      }
+      p{
+        font-family: 'Stolzl Book';
+          font-size: 14px;
+          margin-top: 20px;
+          color: #B5B4B3;
+          text-align: center;
+          width: 60%;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.content_s{
+  .content_s__wrap{
+    .content_box_1{
+      background-color: #EEE8E3;
+    }
+    .content_box_2{
+      background-color: #282624;
+      h4{
+        font-family: 'Stolzl Regular';
+        color:white;
+        margin-left: 0;
+      }
+      p{
+        font-family: 'Stolzl Book';
+        width: 80%;
+      }
+    }
+    article{
+      h4{
+        font-family: 'Stolzl Regular';
+        font-size: 18px;
+        position: relative;
+        margin-left: 20px;
+        margin-bottom: 35px;
+      }
+      p{
+        font-family: 'Stolzl Book';
+        font-size: 12px;
+        color: #B5B4B3;
+        width: 50%;
+        position: relative;
+        &::before{
+          content:'';
+          position: absolute;
+          left: 0;
+          top: -20px;
+          width: 36px;
+          height: 2px;
+          background-color: #FCB367;
+        }
+      }
+      .btn{
+        margin-top: 50px;
+      }
+    }
+  }
+}

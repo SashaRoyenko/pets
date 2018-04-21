@@ -1,0 +1,59 @@
+.header_s{
+  position: fixed !important;
+  top: 0 !important;
+  width: 100%;
+  z-index: 999;
+    a{
+      color:white;
+      text-decoration: none;
+    }
+    article{
+      margin-top: 55px;
+      a{
+        width: 100%;
+      }
+      h2{
+        margin-left: 35px;
+        font-size: 38px;
+      }
+      svg{
+        width: 100px;
+        height: 100px;
+    .cls-1, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+        .cls-1, .cls-4, .cls-5 {
+          stroke: #fff;
+        }
+
+        .cls-1 {
+          stroke-width: 1.56px;
+        }
+
+        .cls-2 {
+          stroke: #ededed;
+        }
+
+        .cls-2, .cls-4, .cls-5 {
+          stroke-miterlimit: 10;
+          stroke-width: 0.78px;
+        }
+
+        .cls-3, .cls-4 {
+          fill: #fff;
+        }
+      }
+    }
+      ul{
+        margin-top: 45px;
+        li{
+          font-family: 'Stolzl Regular';
+          margin-right:50px;
+          font-size: 12px;
+          &:last-child{
+            margin-right: 0;
+        }
+        }
+      }
+  }

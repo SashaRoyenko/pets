@@ -1,0 +1,28 @@
+.things_s{
+  position: relative;
+  background-image: url("../img/thing/things.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  .things_s__wrap{
+    div{
+      background-color: #EEE8E3;
+      position: absolute;
+      padding: 55px;
+      h3{
+          font-family: 'Stolzl Regular';
+          font-size: 19px;
+      }
+      p{
+        font-family: 'Stolzl Book';
+        font-size:15px;
+        color:#4D4A48;
+      }
+      span{
+        font-size: 11px;
+        font-family: 'Stolzl Book';
+      }
+    }
+  }
+}

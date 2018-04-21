@@ -1,0 +1,19 @@
+.problems .problems__wrap .problem_1 {
+  background-color: #1E1D1C; }
+.problems .problems__wrap .problem_2 {
+  background-color: #282624; }
+.problems .problems__wrap article h4 {
+  font-size: 18px;
+  position: relative; }
+  .problems .problems__wrap article h4::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 2px;
+    background-color: #FCB367; }
+.problems .problems__wrap article p {
+  font-size: 14px;
+  margin-top: 20px; }

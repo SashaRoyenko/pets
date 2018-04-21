@@ -1,0 +1,25 @@
+.intro_s{
+  background-image: url("../img/intro/intro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  .intro_s__wrap{
+    height: 100%;
+      article{
+        h1,p{
+          color:#fff;
+        }
+        h1{
+          font-family: 'Stolzl Regular';
+          margin-left: 30px;
+          font-size: 33px;
+        }
+        p{
+          font-family: 'Stolzl Book';
+          margin: 35px 0 50px 0;
+          font-size: 12px;
+        }
+      }
+  }
+}

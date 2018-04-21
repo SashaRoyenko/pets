@@ -1,0 +1,19 @@
+//Libs
+@import "libs/reset";
+@import "libs/media";
+//Partials
+@import "partials/fonts";
+@import "partials/keyframes";
+@import "partials/mixins";
+@import "partials/variable";
+@import "partials/mixins";
+//Components
+@import "components/header.scss";
+@import"components/footer.scss";
+@import "components/intro";
+@import "components/problems";
+@import "components/content";
+@import "components/search";
+@import "components/things";
+//Pages
+@import "pages/home";
