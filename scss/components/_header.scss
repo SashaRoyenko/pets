@@ -24,10 +24,18 @@
       h2{
         margin-left: 35px;
         font-size: 38px;
+        @include res('mob'){
+          font-size: 30px;
+        }
       }
       svg{
         width: 100px;
-        height: 100px;
+        @include res('tab'){
+          width: 85px;
+        }
+        @include res('mob'){
+          width: 70px;
+        }
     .cls-1, .cls-2, .cls-5 {
         fill: none;
       }

@@ -17,12 +17,16 @@
           font-size: 33px;
           @include res('mob'){
             margin-left: 0;
+            font-size: 28px;
           }
         }
         p{
           font-family: 'Stolzl Book';
           margin: 35px 0 50px 0;
           font-size: 12px;
+          @include res('mob'){
+            font-size: 10px;
+          }
         }
       }
     .btn{
@@ -36,6 +40,8 @@
   }
   .into_mob_nav{
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 20px;
     @include res('mob'){
       display: flex;
