@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   height: 100vh;
   .intro_s__wrap{
+    position: relative;
     height: 100%;
       article{
         h1,p{
@@ -14,6 +15,9 @@
           font-family: 'Stolzl Regular';
           margin-left: 30px;
           font-size: 33px;
+          @include res('mob'){
+            margin-left: 0;
+          }
         }
         p{
           font-family: 'Stolzl Book';
@@ -21,5 +25,31 @@
           font-size: 12px;
         }
       }
+    .btn{
+      @include res('mob'){
+        margin-left: 30px;
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+  }
+  .into_mob_nav{
+    position: absolute;
+    bottom: 20px;
+    @include res('mob'){
+      display: flex;
+    }
+    li{
+      font-family: 'Stolzl Regular';
+      margin-right:50px;
+      font-size: 11px;
+      a{
+        color:#fff;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+    }
   }
 }

@@ -21,26 +21,42 @@
           width: 36px;
           height: 2px;
           background-color: #FCB367;
+          @include res('mob') {
+            width: 400px;
+            bottom: -30px;
+          }
         }
       }
       p{
         font-family: 'Stolzl Book';
         font-size: 13px;
         color: #B5B4B3;
-        margin: 25px 0 40px 0;
+        margin: 50px 0 40px 0;
         width: 50%;
         text-align: center;
+        @include res('mob') {
+          width: 90%;
+        }
       }
     }
     form {
       input {
         width: 515px;
         height: 40px;
+        @include res('mob') {
+          width: 320px;
+          height: 30px;
+        }
       }
-      .btn{
+      .btn {
         width: 140px;
         height: 40px;
         line-height: 40px;
+        @include res('mob') {
+          width: 100px;
+          height: 30px;
+          line-height: 30px;
+        }
       }
     }
     ul{
@@ -51,6 +67,9 @@
           font-size: 14px;
           color: #fff;
           margin-bottom: 25px;
+          @include res('mob') {
+            font-size: 12px;
+          }
         }
         p{
           font-family: 'Stolzl Book';
@@ -58,6 +77,9 @@
           color: #B5B4B3;
           text-align: left;
           line-height: 20px;
+          @include res('mob') {
+            font-size: 10px;
+          }
         }
         }
       }

@@ -1,5 +1,11 @@
 .header_s{
   position: fixed !important;
+  @include res('tab'){
+    position: absolute !important;
+  }
+  @include res('mob'){
+    position: absolute !important;
+  }
   top: 0 !important;
   width: 100%;
   z-index: 999;
@@ -9,6 +15,9 @@
     }
     article{
       margin-top: 55px;
+      @include res('tab'){
+        margin-top: -70px;
+      }
       a{
         width: 100%;
       }
@@ -47,6 +56,12 @@
     }
       ul{
         margin-top: 45px;
+        @include res('tab'){
+          margin-top: 20px;
+        }
+        @include res('mob'){
+          display: none;
+        }
         li{
           font-family: 'Stolzl Regular';
           margin-right:50px;
@@ -54,6 +69,13 @@
           &:last-child{
             margin-right: 0;
         }
+          @include res('tab'){
+            margin-right: 0;
+            margin-bottom: 45px;
+            &:last-child{
+              margin-bottom:0;
+            }
+          }
         }
       }
   }

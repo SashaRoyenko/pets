@@ -2,17 +2,31 @@
   .problems__wrap{
    .problems_1,.problem_2{
     height: 450px;
+
     }
     .problem_1{
       background-color: #1E1D1C;
+      @include res('mob'){
+        height: 350px;
+        width: 100%;
+      }
     }
     .problem_2{
       background-color: #282624;
+      @include res('mob'){
+        height: 370px;
+        width: 100%;
+      }
       article {
         position: relative;
         .btn {
           position: absolute;
           bottom: -60px;
+          @include res('mob'){
+           position: relative;
+            margin-top: 20px;
+            bottom: 0;
+          }
         }
       }
     }
@@ -26,20 +40,26 @@
           content:'';
           position: absolute;
           left: 50%;
-          bottom: -10px;
+          bottom: -15px;
           transform: translateX(-50%);
           width: 36px;
           height: 2px;
           background-color: #FCB367;
+          @include res('mob'){
+            width: 160px;
+          }
         }
       }
       p{
         font-family: 'Stolzl Book';
           font-size: 14px;
-          margin-top: 20px;
+          margin-top: 30px;
           color: #B5B4B3;
           text-align: center;
           width: 60%;
+        @include res('tab'){
+          width: 90%;
+        }
       }
     }
   }
