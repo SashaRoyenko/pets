@@ -22,7 +22,7 @@
           height: 2px;
           background-color: #FCB367;
           @include res('mob') {
-            width: 400px;
+            width: 250px;
             bottom: -30px;
           }
         }
@@ -44,7 +44,7 @@
         width: 515px;
         height: 40px;
         @include res('mob') {
-          width: 320px;
+          width: 250px;
           height: 30px;
         }
       }

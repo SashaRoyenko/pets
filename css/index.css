@@ -425,7 +425,7 @@ body {
       background-color: #FCB367; }
       @media only screen and (max-width: 767px) {
         .footer_s footer article h2::before {
-          width: 400px;
+          width: 250px;
           bottom: -30px; } }
   .footer_s footer article p {
     font-family: 'Stolzl Book';
@@ -442,7 +442,7 @@ body {
     height: 40px; }
     @media only screen and (max-width: 767px) {
       .footer_s footer form input {
-        width: 320px;
+        width: 250px;
         height: 30px; } }
   .footer_s footer form .btn {
     width: 140px;
@@ -527,7 +527,7 @@ body {
     .intro_s .into_mob_nav li {
       font-family: 'Stolzl Regular';
       margin-right: 50px;
-      font-size: 11px; }
+      font-size: 10px; }
       .intro_s .into_mob_nav li a {
         color: #fff; }
       .intro_s .into_mob_nav li:last-child {
