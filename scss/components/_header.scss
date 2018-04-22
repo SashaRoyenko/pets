@@ -18,6 +18,9 @@
       @include res('tab'){
         margin-top: -70px;
       }
+      @include res('mob'){
+        margin-top: 40px;
+      }
       a{
         width: 100%;
       }
@@ -26,6 +29,7 @@
         font-size: 38px;
         @include res('mob'){
           font-size: 30px;
+          margin-left: 35px;
         }
       }
       svg{
@@ -86,4 +90,22 @@
           }
         }
       }
+  .hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: 40px;
+    @include res('mob'){
+      display: flex;
+    }
+  }
+  .line{
+    width: 40px;
+    height: 5px;
+    background: white;
+    transition: .5s;
+  }
+  .line:nth-of-type(2) {
+    margin: 8px 0;
+  }
   }
