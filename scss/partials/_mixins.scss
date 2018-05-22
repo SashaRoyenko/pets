@@ -7,6 +7,10 @@ body{
   line-height: 30px;
   background-color: #FCB367;
   text-align: center;
+  transition:.5s;
+  &:hover{
+    background-color: #fff;
+  }
   a{
   font-size: 12px;
     font-family: 'Stolzl Book';

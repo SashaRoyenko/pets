@@ -60,6 +60,9 @@
         @include res('tab'){
           width: 90%;
         }
+        @include res('mob'){
+          width: 90%;
+        }
       }
     }
   }

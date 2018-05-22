@@ -12,6 +12,8 @@
     a{
       color:white;
       text-decoration: none;
+      width: 100%;
+      //height: 100%;
     }
     article{
       margin-top: 55px;
@@ -44,7 +46,7 @@
         fill: none;
       }
 
-        .cls-1, .cls-4, .cls-5 {
+        .cls-1, .cls-4, .cls-5{
           stroke: #fff;
         }
 
@@ -78,6 +80,12 @@
           font-family: 'Stolzl Regular';
           margin-right:50px;
           font-size: 12px;
+         a{
+           transition: .5s;
+           &:hover{
+             color:#FCB367;
+           }
+         }
           &:last-child{
             margin-right: 0;
         }
